@@ -1,6 +1,11 @@
 const object = {
   nama: 'Eko',
   umur: 20,
+  hobby: ['coding', 'makan', 'tidur'],
+  alamat: {
+    kota: 'Bandung',
+    provinsi: 'Jawa Barat',
+  },
 };
 
 const arrayOfObject = [
@@ -13,4 +18,4 @@ arrayOfObject.push({
   age: 30,
 });
 
-console.log(arrayOfObject[0].name);
+console.log(object.alamat.provinsi);
