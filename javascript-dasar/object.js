@@ -1,5 +1,6 @@
 const object = {
   nama: 'Eko',
+  gender: 'Laki-laki',
   umur: 20,
   hobby: ['coding', 'makan', 'tidur'],
   alamat: {
@@ -8,14 +9,11 @@ const object = {
   },
 };
 
-const arrayOfObject = [
-  { name: 'Eko', age: 20 },
-  { name: 'Budi', age: 25 },
-];
+// Hapus data di object
+delete object.nama;
+console.log(object);
 
-arrayOfObject.push({
-  name: 'Joko',
-  age: 30,
-});
+// Tambah data di object
+object.gender = 'Pria';
 
-console.log(object.alamat.provinsi);
+console.log(object);
