@@ -1,8 +1,9 @@
-// let angkaSatu = 5;
-// console.log(angkaSatu);
-// angkaSatu = '10';
-// console.log(angkaSatu);
+// VARIABLE
+// Variable digunakan untuk menyimpan data. Di JavaScript, kita bisa menggunakan var, let, atau const.
 
-const PI = '3.14';
+let nama = 'Eko'; // menggunakan let karena nilainya bisa berubah
+const tahunLahir = 2000; // menggunakan const karena nilainya tetap
 
-console.log(PI + PI);
+// Menampilkan isi variabel ke console
+console.log('Nama saya adalah', nama);
+console.log('Saya lahir tahun', tahunLahir);

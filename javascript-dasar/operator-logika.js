@@ -1,3 +1,6 @@
+// OPERATOR LOGIKA
+// Digunakan untuk menggabungkan kondisi boolean
+
 const angka1 = 5;
 const angka2 = 10;
 

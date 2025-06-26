@@ -1,3 +1,6 @@
+// IF EXPRESSION
+// Digunakan untuk membuat percabangan logika
+
 const umur = 18;
 
 if (umur >= 18) {
