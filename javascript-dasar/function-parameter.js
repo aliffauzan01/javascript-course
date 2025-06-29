@@ -2,7 +2,7 @@
 // Parameter digunakan untuk menerima input dalam fungsi
 
 function perkenalan(nama, umur) {
-    console.log("Halo, nama saya " + nama + ", umur saya " + umur);
+  console.log('Halo, nama saya ' + nama + ', umur saya ' + umur);
 }
 
-perkenalan("Rizal", 25);
+perkenalan('Eko', 20);

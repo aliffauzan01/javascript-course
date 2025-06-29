@@ -2,7 +2,7 @@
 // Cara singkat menulis fungsi di JavaScript
 
 const sapa = (nama) => {
-    console.log("Hai, " + nama);
+  console.log('Halo, ' + nama);
 };
 
-sapa("Rizal");
+sapa('Eko');
