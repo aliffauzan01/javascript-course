@@ -3,8 +3,9 @@
 
 const user = {
   nama: 'Eko',
-  sapa: function () {
-    console.log('Halo, saya ' + this.nama);
+  umur: 20,
+  sapa() {
+    console.log('Halo, saya ' + this.nama + ', umur saya ' + this.umur);
   },
 };
 

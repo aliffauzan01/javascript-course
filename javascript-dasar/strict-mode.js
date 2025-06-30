@@ -1,7 +1,7 @@
 // STRICT MODE
 // Sebuah cara untuk menghindari kegagalan penulisan kode JavaScript
 
-// 'use strict';
+'use strict';
 
 x = 10;
 
